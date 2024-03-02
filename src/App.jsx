@@ -1,6 +1,7 @@
 
 import Header from "./Header";
 import Footer from "./Footer.jsx";
+import Student from "./Student.jsx";
 function App() {
  
 
@@ -8,6 +9,7 @@ function App() {
    <>
        <Header/>
        <Footer/>
+       <Student/>
        </>
   );
 }
