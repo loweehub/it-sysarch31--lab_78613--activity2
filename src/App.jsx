@@ -1,7 +1,7 @@
 
 import Header from "./Header";
 import Footer from "./Footer.jsx";
-import Student from "./Student.jsx";
+import List from "./List.jsx";
 function App() {
  
 
@@ -9,7 +9,7 @@ function App() {
    <>
        <Header/>
        <Footer/>
-       <Student/>
+       <List/>
        </>
   );
 }

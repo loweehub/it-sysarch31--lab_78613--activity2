@@ -4,7 +4,7 @@ function Header(){
             <header>
                 
                 <div class="topnav">
-                <a class="active" href="#home">Loweee</a>
+                <a class="active" href="#home">Loui Canete</a>
                 <a href="#news">Details</a>
                 <a href="#about">Hobbies</a>
                 <a href="#contact">Contact</a>

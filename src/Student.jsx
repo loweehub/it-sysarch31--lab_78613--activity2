@@ -1,14 +1,31 @@
-function Card(){
-return(
-    <div className="card">
-        <img src="https://a.pinatafarm.com/620x576/93f97478ad/i-know-that-feel-bro.jpg" alt="Profile"></img>
-        <h2>Lowee De Papa</h2>
-        <p>loweecanete22@gmail.com</p>
 
-    </div>
-)
 
+// import React from 'react';
+
+// function Student({ photo, name, email }) {
+//     return (
+//       <div className="student">
+//         <img src={photo} alt="profile picture" className="photo" />
+//         <h2 id="name">{name}</h2>
+//         <p id="email">{email}</p>
+//       </div>
+//     );
+// }
+
+// export default Student;
+import React from 'react';
+
+function Student({ photo, name, email }) {
+    return (
+        <div className="student">
+            <img src={photo} alt="profile picture" className='photo'/>
+            <h2>{name}</h2>
+            <p>{email}</p>
+        </div>
+    );
 }
 
 
-export default Card
+
+
+export default Student;

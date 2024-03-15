@@ -24,13 +24,33 @@
   background-color: #B5C0C9;
   color: white;
 }
-footer {
+.footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
+  max-height: 100px; /* Set a maximum height for the footer */
+  overflow-y: auto; /* Enable vertical scrolling */
   background-color: #800080;
   color: white;
   text-align: center;
+  padding: 10px; /* Add padding to give some space around the text */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
+.photo {
+  width: 40em;
+  height: 50em;
+ 
+}
+
+.student {
+  display: inline-block;
+  margin-right: 28px; /* Adjust the bottom margin between rows */
+  text-align: center;
+}
+
+.student img {
+  width: 15em; /* Adjust the width of each student */
+  height: 200px;
+}
